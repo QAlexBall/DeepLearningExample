@@ -4,7 +4,7 @@ import tensorflow as tf
 # 加载matplotlib工具包,使用该工具可以对预测的sin函数曲线进行绘图
 import matplotlib as mpl
 mpl.use('Agg')
-from matplotlib.pyplot import as plt
+import matplotlib.pyplot as plt
 
 HIDDEN_SIZE = 30
 NUM_LAYERS = 2

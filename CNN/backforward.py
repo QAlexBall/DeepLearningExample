@@ -18,6 +18,7 @@ sess.close()
 
 sess1 = tf.Session()
 sess1.run(tf.global_variables_initializer())
+print(sess1.run(w1), '\n', sess1.run(w2))
 print(sess1.run(y))
 sess1.close()
 

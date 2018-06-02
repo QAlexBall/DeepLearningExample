@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="852c6a8f-a733-42d6-86d0-152e42e9a9be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/CNN/backforward.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/backforward.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RNN/RNN_Example.py" beforeDir="false" afterPath="$PROJECT_DIR$/RNN/RNN_Example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/example/mnist_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/example/mnist_inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/example/mnist_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/alex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/alex.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,13 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RNN_Example.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RNN/RNN_Example.py">
+      <file leaf-file-name="mnist_eval.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNN/example/mnist_eval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="678">
+              <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,6 +42,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>y-input</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,6 +57,9 @@
         <option value="$PROJECT_DIR$/CNN/CNN_Example.py" />
         <option value="$PROJECT_DIR$/CNN/backforward.py" />
         <option value="$PROJECT_DIR$/RNN/RNN_Example.py" />
+        <option value="$PROJECT_DIR$/CNN/example/mnist_inference.py" />
+        <option value="$PROJECT_DIR$/CNN/example/mnist_train.py" />
+        <option value="$PROJECT_DIR$/CNN/example/mnist_eval.py" />
       </list>
     </option>
   </component>
@@ -60,9 +72,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="259" />
-    <option name="y" value="49" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="266" />
+    <option name="y" value="131" />
     <option name="width" value="751" />
     <option name="height" value="576" />
   </component>
@@ -89,7 +101,8 @@
             <path>
               <item name="DeepLearningExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearningExample" type="462c0819:PsiDirectoryNode" />
-              <item name="RNN" type="462c0819:PsiDirectoryNode" />
+              <item name="CNN" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -103,7 +116,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -117,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.RNN_Example">
+  <component name="RunManager" selected="Python.mnist_eval">
     <configuration name="DeepLearningExample" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="DeepLearningExample" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,15 +205,78 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="mnist_eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepLearningExample" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/example/mnist_eval.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mnist_inference" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepLearningExample" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/example/mnist_inference.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mnist_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepLearningExample" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/example/mnist_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.DeepLearningExample" />
       <item itemvalue="Python.backforward" />
       <item itemvalue="Python.RNN_Example" />
+      <item itemvalue="Python.mnist_inference" />
+      <item itemvalue="Python.mnist_train" />
+      <item itemvalue="Python.mnist_eval" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.RNN_Example" />
+        <item itemvalue="Python.mnist_eval" />
+        <item itemvalue="Python.mnist_train" />
+        <item itemvalue="Python.mnist_inference" />
         <item itemvalue="Python.backforward" />
+        <item itemvalue="Python.RNN_Example" />
       </list>
     </recent_temporary>
   </component>
@@ -217,32 +293,41 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1366" height="738" extended-state="6" />
+    <frame x="266" y="131" width="751" height="576" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3566879" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299566" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" x="0" y="0" width="291" height="538" id="Documentation" order="5" side_tool="true" weight="0.3287879" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32913166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26483357" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37304965" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="291" height="538" id="Documentation" side_tool="true" weight="0.329429" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,22 +344,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/CNN_Example.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/backforward.py">
+    <entry file="file://$PROJECT_DIR$/RNN/RNN_Example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="374">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RNN/RNN_Example.py">
+    <entry file="file://$PROJECT_DIR$/CNN/backforward.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="374">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/CNN_Example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydev_run_in_console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="1115" selection-start-line="1115" selection-end-line="1115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="2041" selection-start-line="2041" selection-end-line="2041" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/example/mnist_inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/example/mnist_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#2194#2203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/example/mnist_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

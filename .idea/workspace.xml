@@ -14,11 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Exponential_Moving_Average_example.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNN/Exponential_Moving_Average_example.py">
+      <file leaf-file-name="RNN_Example.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RNN/RNN_Example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="374">
+              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,7 +80,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,10 +87,16 @@
               <item name="DeepLearningExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearningExample" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DeepLearningExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearningExample" type="462c0819:PsiDirectoryNode" />
+              <item name="RNN" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Exponential_Moving_Average_example">
+  <component name="RunManager" selected="Python.read_show_plane">
     <configuration name="DeepLearningExample" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="DeepLearningExample" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,25 +212,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="mnist_inference" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DeepLearningExample" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN/example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/example/mnist_inference.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="mnist_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearningExample" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,21 +231,40 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="read_show_plane" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepLearningExample" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFRecord_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFRecord_code/read_show_plane.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.DeepLearningExample" />
       <item itemvalue="Python.backforward" />
-      <item itemvalue="Python.mnist_inference" />
       <item itemvalue="Python.mnist_train" />
       <item itemvalue="Python.mnist_eval" />
       <item itemvalue="Python.Exponential_Moving_Average_example" />
+      <item itemvalue="Python.read_show_plane" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.read_show_plane" />
         <item itemvalue="Python.Exponential_Moving_Average_example" />
         <item itemvalue="Python.backforward" />
         <item itemvalue="Python.mnist_eval" />
         <item itemvalue="Python.mnist_train" />
-        <item itemvalue="Python.mnist_inference" />
       </list>
     </recent_temporary>
   </component>
@@ -292,19 +300,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299566" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="291" height="538" id="Documentation" order="5" side_tool="true" visible="true" weight="0.175" />
+      <window_info anchor="right" x="0" y="0" width="291" height="538" id="Documentation" order="5" side_tool="true" weight="0.175" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32913166" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2644628" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.73057854" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289256" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21439394" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21742424" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.25075758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -328,6 +337,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CNN/Exponential_Moving_Average_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CNN/Exponential_Moving_Average_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -391,13 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RNN/RNN_Example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RNN/RNN_Example.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -417,8 +426,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CNN/Exponential_Moving_Average_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="442">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFRecord_code/MNIST_2_TFRecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFRecord_code/read_show_plane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/RNN_Example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
